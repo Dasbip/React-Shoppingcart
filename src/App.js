@@ -23,7 +23,7 @@ console.log(data);
           <h1>Blipkart</h1>
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Layout2 />}>              
+              <Route path="/" element>              
                 {/* <Route path="Cart" element={<Carrt />} /> */}
               </Route>
             </Routes>
